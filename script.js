@@ -1,7 +1,7 @@
-function get() {
+function volume_sphere() {
   var radius=document.getElementById("radius").value;
 	var volume=(4/3)*(pi)*radius*radius*radius;
 	document.getElementById("volume").innerText=volume;
 } 
 const btn=doument.getElementById("submit");
-btn.addEventListener("click",get)
+btn.addEventListener("click",volume_sphere);
